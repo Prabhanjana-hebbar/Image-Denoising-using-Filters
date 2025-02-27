@@ -3,7 +3,7 @@ clear;
 clc;
 
 % Reading Input Image
-A = imread("car.jpg");
+A = imread("car.jpg"); //Pass Your Input Image here 
 A = double(rgb2gray(A));
 [M, N] = size(A);
 
